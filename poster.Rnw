@@ -1,0 +1,162 @@
+\documentclass[final]{beamer} % beamer 3.10: do NOT use option hyperref={pdfpagelabels=false} !
+  %\documentclass[final,hyperref={pdfpagelabels=false}]{beamer} % beamer 3.07: get rid of beamer warnings
+  \mode<presentation> { \usetheme{CIPoster} }
+  \usepackage[english]{babel}
+  \usepackage[latin1]{inputenc}
+  \usepackage{amsmath,amsthm, amssymb, latexsym}
+  \usefonttheme[onlymath]{serif}
+  \boldmath
+
+  \usepackage[orientation=portrait,size=a0,scale=1.1,debug]{beamerposter}                       % e.g. for DIN-A0 poster
+    \usepackage{Sweave}
+  \title[BioTraining]{Bioinformatics Training Opportunities}
+  \author[Dunning]{Mark Dunning}
+  \institute[C.I]{Bioinformatics Core, Cancer Research UK, Cambridge Institute}
+  \date{\today}
+  \newcommand{\spaceProp}{0.02}
+  \newcommand{\spacer}{\begin{column}{\spaceProp\paperwidth}\end{column}}
+  
+  \newenvironment{oneCol}{\begin{column}[t]{0.225\paperwidth}}{\end{column}}
+  \newenvironment{threeCol}{\begin{column}[t]{0.715\paperwidth}}{\end{column}}
+  \setbeamertemplate{caption}[numbered]
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+  \begin{frame}{}
+  
+            \usebeamercolor{title in headline}{\color{fg}\textbf{\large{http://intranet.cri.camres.org/core-facilities/bioinformatics/training-courses}}\\[3ex]}
+  
+    \begin{columns}[t]
+    \spacer{}
+    \begin{oneCol}
+    \begin{block}{Introduction}
+Modern technologies are able to generate vast amounts of data on an unprecedented scale. Therefore numerical and computational competency are increasingly being seen as core skills for bench scientists. 
+
+\end{block}
+    \begin{block}{Internal Courses}
+
+  \begin{itemize}
+  \item{\textit{Active}}
+  
+  These courses are designed to help you make the most of your interactions with the Genomics and Bioinformatics Cores. They will help you to formulate your experimental design question, and give you a basic grounding in statistics.
+    \begin{itemize}
+      \item{\textbf{An Introduction to Statistical Analysis using R Commander}}
+      \item{\textbf{Introduction to Experimental Design}}
+    \end{itemize}
+  
+  \item{\textit{Under development}}
+       
+
+These courses is tailored towards those who have been or would like to have their data analysed through the Bioinformatics Core Facility. The main focus is on how to interpret results from the Bioinformatics Core Data Analysis Pipeline and how to analyse your results further using various downstream analysis tools.
+    \begin{itemize}
+    \item{\textbf{ChIP-seq Data Analysis}}
+    \item{\textbf{RNA-Seq Data Analysis}}
+    \end{itemize}
+  \end{itemize}
+
+    \end{block}
+    
+    
+    \begin{block}{External Courses}
+    All members of The University of Cambridge are eligable for courses hosted in the Department of Genetics. A list of current courses can be obtained from {\color{blue}tinyurl.com/biocourses}. Several courses that involve C.I. staff as demonstrators, or might be of particular interested, are listed below
+  \begin{itemize}
+  \item{Beginner}
+  \begin{itemize}
+    \item{An Introduction to Solving Biological Problems with Python}
+    \item{An Introduction to Solving Biological Problems with PERL}
+    \item{An Introduction to Solving Biological Problems with R}
+    \item{Analysing mapped NGS data with SeqMonk}
+    \item{Galaxy: Data Manipulation and Visualisation}
+    \item{Whole Exome Sequencing and RNA-sequence data analysis}
+    \item{Introductory Statistics and Experimental Design for Genomics}
+  \end{itemize}
+  \item{Intermediate}
+    \begin{itemize}
+    \item{Analysis of High-throughput sequencing data with Bioconductor}
+    \item{Microarray Analysis with Bioconductor}
+    \end{itemize}
+  \item{Advanced}
+    \begin{itemize}
+    \item{A Practical Introduction to Good Programming Practices}
+    \item{R object-oriented programming and package development}
+    \end{itemize}
+  
+  \end{itemize}
+    
+    \end{block}
+    \begin{block}{Conclusion}
+
+
+    \end{block}
+    \begin{block}{Acknowledgements}
+    \end{block}
+    \end{oneCol}
+
+    \spacer{}
+    \begin{threeCol}
+    \begin{block}{R Training}
+    \begin{columns}
+    \begin{oneCol}
+    \begin{figure}
+    \includegraphics{images/NYTimes_R_Article.png}
+    \end{figure}
+    \end{oneCol}
+    %\spacer{}
+    \begin{oneCol}
+    \begin{figure}
+    \includegraphics{images/cyclejourneys.png}
+
+    \end{figure}
+    \end{oneCol}
+    %\spacer{}
+    \begin{oneCol}
+    \begin{figure}
+        \includegraphics{images/rstudio-windows.png}
+        \end{figure}
+        \end{oneCol}
+    \end{columns}
+The R programming language is our language of choice for data analysis. Not only is it open-source and freely-available, but it is capable of generating publication-quality images and has a large user-base amongst the scientific community. It also promotes the practice of \textbf{Reproducible Research}. However, it comes with a steep learning-curve.
+\begin{itemize}
+\item{Support forum for C.I. staff}
+\item{Repository of practices example available on intranet}
+\item{R clinics}
+\end{itemize}
+
+    \end{block}
+    
+    \begin{block}{Statistics}
+    \begin{columns}
+    \begin{oneCol}
+    \includegraphics{images/flowchart.png}
+    \end{oneCol}
+    %\spacer{}
+    \begin{oneCol}
+    \end{oneCol}
+    %\spacer{}
+    \begin{oneCol}
+    \end{oneCol}
+    \end{columns}
+Statistics teaching is done using the R Commander GUI.\\    
+    
+The Bioinformatics Core at Cambridge Research Institute employs statisticians to help researchers at the institute with the statistical aspects of their studies. Whilst we are always happy to do an analysis for you, we are also happy to support you if you choose to run the analysis yourself. Please get in touch if you have any questions or require our support, or come along to our Wednesday afternoon Statistics Clinic.
+
+  \centering \usebeamercolor{title in headline}{\color{fg}\textbf{\large{cristatsclinic@cruk.cam.ac.uk}}}
+  
+  
+    \end{block}
+
+\begin{block}{Experimental Design}
+
+  
+        \textit{"To consult the statistician after an experiment is finished is often merely to ask him to conduct a post mortem examination. He can perhaps say what the experiment died of." - R.A. Fisher}.
+        
+        This quote by Fisher sums up why experimental design is a crucial part of the experimental process. To book an experimental design meeting use the following address;\\
+        
+          \centering \usebeamercolor{title in headline}{\color{fg}\textbf{\large{CRIExperimentalDesign@cruk.cam.ac.uk}}}
+    \end{block}
+    
+    
+    \end{threeCol}
+    \spacer{}
+    \end{columns}
+  \end{frame}
+  \end{document}
