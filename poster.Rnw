@@ -9,8 +9,10 @@
 
   \usepackage[orientation=portrait,size=a0,scale=1.1,debug]{beamerposter}                       % e.g. for DIN-A0 poster
     \usepackage{Sweave}
+    \usepackage[sort&compress,square,comma,authoryear]{natbib}
+\bibliographystyle{plainnat}
   \title[BioTraining]{Bioinformatics Training Opportunities}
-  \author[Dunning]{Mark Dunning}
+  \author[Dunning]{Mark Dunning, Bioinformatics Training Coordinator}
   \institute[C.I]{Bioinformatics Core, Cancer Research UK, Cambridge Institute}
   \date{\today}
   \newcommand{\spaceProp}{0.02}
@@ -21,9 +23,10 @@
   \setbeamertemplate{caption}[numbered]
 \begin{document}
 \SweaveOpts{concordance=TRUE}
+
   \begin{frame}{}
   
-            \usebeamercolor{title in headline}{\color{fg}\textbf{\large{http://intranet.cri.camres.org/core-facilities/bioinformatics/training-courses}}\\[3ex]}
+            \usebeamercolor{title in headline}{\color{crukpink}\textbf{\large{http://intranet.cri.camres.org/core-facilities/bioinformatics/training-courses}}\\[3ex]}
   
     \begin{columns}[t]
     \spacer{}
@@ -35,7 +38,7 @@ Modern technologies are able to generate vast amounts of data on an unprecedente
     \begin{block}{Internal Courses}
 
   \begin{itemize}
-  \item{\textit{Active}}
+  \item{{\color{crukpink}\textit{Active}}}
   
   These courses are designed to help you make the most of your interactions with the Genomics and Bioinformatics Cores. They will help you to formulate your experimental design question, and give you a basic grounding in statistics.
     \begin{itemize}
@@ -43,10 +46,16 @@ Modern technologies are able to generate vast amounts of data on an unprecedente
       \item{\textbf{Introduction to Experimental Design}}
     \end{itemize}
   
-  \item{\textit{Under development}}
-       
+  \item{\color{crukpink}\textit{Under development}}
+    \begin{itemize}
+    \item{\textbf{Visualisation and interpretation of Bioinformatcs data using Genome Browsers}}
+    \item{\textbf{Graphics and data manipulation in R}}
+    \item{\textbf{Analysis of public datasets in R}}
+    \item{\textbf{Further statistics}}
+    \item{\textbf{Introduction to Unix}}
+    \end{itemize}
 
-These courses is tailored towards those who have been or would like to have their data analysed through the Bioinformatics Core Facility. The main focus is on how to interpret results from the Bioinformatics Core Data Analysis Pipeline and how to analyse your results further using various downstream analysis tools.
+These courses are tailored towards those who have been or would like to have their data analysed through the Bioinformatics Core Facility. The main focus is on how to interpret results from the Bioinformatics Core Data Analysis Pipeline and how to analyse your results further using various downstream analysis tools.
     \begin{itemize}
     \item{\textbf{ChIP-seq Data Analysis}}
     \item{\textbf{RNA-Seq Data Analysis}}
@@ -57,9 +66,9 @@ These courses is tailored towards those who have been or would like to have thei
     
     
     \begin{block}{External Courses}
-    All members of The University of Cambridge are eligable for courses hosted in the Department of Genetics. A list of current courses can be obtained from {\color{blue}tinyurl.com/biocourses}. Several courses that involve C.I. staff as demonstrators, or might be of particular interested, are listed below
+    All members of The University of Cambridge are eligable for courses hosted in the Department of Genetics. A list of current courses can be obtained from {\color{crukpink}tinyurl.com/biocourses}. Several courses that involve C.I. staff as demonstrators, or might be of particular interested, are listed below
   \begin{itemize}
-  \item{Beginner}
+  \item{\color{crukpink}{Beginner}}
   \begin{itemize}
     \item{An Introduction to Solving Biological Problems with Python}
     \item{An Introduction to Solving Biological Problems with PERL}
@@ -69,12 +78,12 @@ These courses is tailored towards those who have been or would like to have thei
     \item{Whole Exome Sequencing and RNA-sequence data analysis}
     \item{Introductory Statistics and Experimental Design for Genomics}
   \end{itemize}
-  \item{Intermediate}
+  \item{\color{crukpink}{Intermediate}}
     \begin{itemize}
     \item{Analysis of High-throughput sequencing data with Bioconductor}
     \item{Microarray Analysis with Bioconductor}
     \end{itemize}
-  \item{Advanced}
+  \item{\color{crukpink}{Advanced}}
     \begin{itemize}
     \item{A Practical Introduction to Good Programming Practices}
     \item{R object-oriented programming and package development}
@@ -83,75 +92,142 @@ These courses is tailored towards those who have been or would like to have thei
   \end{itemize}
     
     \end{block}
-    \begin{block}{Conclusion}
-
+    \begin{block}{References}
+      \bibliography{poster}
+			\normalsize
 
     \end{block}
+    
     \begin{block}{Acknowledgements}
+    Sarah Vowler, Suraj Menon, Mattthew Eldridge
     \end{block}
     \end{oneCol}
 
     \spacer{}
     \begin{threeCol}
+    
+    \begin{block}{Aims}
+    \begin{itemize}
+    \item{Ensure that researchers leave the institute with compentencies in numberical and computational analysis}
+    \item{Promote best practices such as Reproducible Research and careful experimental design}
+    \item{Increase researcher independence by promoting interfaces such as IGV, Galaxy and UCSC for routine Bioinformatics analysis and data exploration}
+    \item{Monitor and advertise training opportunities that arise in the University}
+    \end{itemize}
+    \end{block}
+    
     \begin{block}{R Training}
     \begin{columns}
     \begin{oneCol}
     \begin{figure}
     \includegraphics{images/NYTimes_R_Article.png}
+    \caption{{\color{crukblue}{R is gaining press attention (\cite{i1697})}}}
     \end{figure}
     \end{oneCol}
     %\spacer{}
     \begin{oneCol}
     \begin{figure}
     \includegraphics{images/cyclejourneys.png}
-
+    \caption{{\color{crukblue}{R can produce high-quality graphics (\cite{Cheshire:2012})}}}
     \end{figure}
     \end{oneCol}
     %\spacer{}
     \begin{oneCol}
     \begin{figure}
         \includegraphics{images/rstudio-windows.png}
+      \caption{{\color{crukblue}{RStudio is an interface to R {\tt www.rstudio.com}}}}
         \end{figure}
+
         \end{oneCol}
     \end{columns}
-The R programming language is our language of choice for data analysis. Not only is it open-source and freely-available, but it is capable of generating publication-quality images and has a large user-base amongst the scientific community. It also promotes the practice of \textbf{Reproducible Research}. However, it comes with a steep learning-curve.
+The R programming language is our language of choice for data analysis. Not only is it open-source and freely-available, but it is capable of generating publication-quality images and has a large user-base amongst the scientific community. It also promotes the practice of \textbf{Reproducible Research}.
+However, it comes with a steep learning-curve especially for those without prior exposure to command-line. We are taking the following steps to help with the transition from GraphPad Prism.\vspace{1cm}
+
 \begin{itemize}
+\item{Promote the RStudio GUI for R}
 \item{Support forum for C.I. staff}
-\item{Repository of practices example available on intranet}
-\item{R clinics}
+\item{Availability of R classes at The Department of Genetics}
+\item{Bespoke training on R graphics with online materials}
+\item{Worked-examples of how to conduct typical GraphPad Prism analyses in R}
+\item{Maintain a repository of useful R literature and resources}
 \end{itemize}
 
     \end{block}
     
-    \begin{block}{Statistics}
-    \begin{columns}
+\begin{block}{Data Visualisation}
+
+   \begin{columns}
     \begin{oneCol}
-    \includegraphics{images/flowchart.png}
+    \begin{figure}
+    \includegraphics{images/GalaxyScreenshot.png}
+    \caption{{\color{crukblue}{Galaxy {\tt https://usegalaxy.org/}}}}
+    \end{figure}
     \end{oneCol}
     %\spacer{}
     \begin{oneCol}
+    \begin{figure}
+    \includegraphics{images/igvfigure1.jpg}
+    \caption{{\color{crukblue}{Integrative Genomics Viewer (IGV) {\tt http://www.broadinstitute.org/igv/}}}}
+    \end{figure}
     \end{oneCol}
     %\spacer{}
     \begin{oneCol}
-    \end{oneCol}
+    \begin{figure}
+        \includegraphics{images/ucsc007.png}
+        \caption{{\color{crukblue}{U.C.S.C Genome Browser {\tt https://genome.ucsc.edu/}}}}
+        \end{figure}
+        \end{oneCol}
+                
     \end{columns}
-Statistics teaching is done using the R Commander GUI.\\    
-    
-The Bioinformatics Core at Cambridge Research Institute employs statisticians to help researchers at the institute with the statistical aspects of their studies. Whilst we are always happy to do an analysis for you, we are also happy to support you if you choose to run the analysis yourself. Please get in touch if you have any questions or require our support, or come along to our Wednesday afternoon Statistics Clinic.
+Arguably the best way to develop an understanding of high-throughput data is to get into the habit of visualising the data. There are many tools that provide the opportunity to do this. \vspace{1cm}
 
-  \centering \usebeamercolor{title in headline}{\color{fg}\textbf{\large{cristatsclinic@cruk.cam.ac.uk}}}
-  
-  
-    \end{block}
+\begin{itemize}
+\item{The Galaxy browser. The Bioinformatics Core has developed a course on this and we have a local version}
+\item{The Integrative Genomics Viewer (IGV) is capable of displaying aligned sequencing data and other types of track data}
+\item{The UCSC genome browser}
+\item{Ensembl browser}
+\end{itemize}
 
-\begin{block}{Experimental Design}
+\end{block}
+
+\begin{block}{Experimental Design and Statistics}
+
+   \begin{columns}
+    \begin{oneCol}
+    \begin{figure}
+    \includegraphics{images/fisher.jpg}
+    \caption{{\color{crukblue}{R.A. Fisher}}}
+    \end{figure}
+    \end{oneCol}
+    %\spacer{}
+    \begin{oneCol}
+    \begin{figure}
+    \includegraphics{images/flowchart.png}
+    \caption{{\color{crukblue}{Statistical analysis thought process}}}
+    \end{figure}
+    \end{oneCol}
+    %\spacer{}
+    \begin{oneCol}
+    \begin{figure}
+        \includegraphics{images/Rcmdr-screenshot.jpg}
+        \caption{{\color{crukblue}{The RCommander interface (\cite{Rcmdr})}}}
+        \end{figure}
+        \end{oneCol}
+                
+    \end{columns}
 
   
-        \textit{"To consult the statistician after an experiment is finished is often merely to ask him to conduct a post mortem examination. He can perhaps say what the experiment died of." - R.A. Fisher}.
+        {\color{crukpink}{\textit{"To consult the statistician after an experiment is finished is often merely to ask him to conduct a post mortem examination. He can perhaps say what the experiment died of." - R.A. Fisher}}}
         
-        This quote by Fisher sums up why experimental design is a crucial part of the experimental process. To book an experimental design meeting use the following address;\\
-        
-          \centering \usebeamercolor{title in headline}{\color{fg}\textbf{\large{CRIExperimentalDesign@cruk.cam.ac.uk}}}
+This quote by Fisher sums up why experimental design is a crucial part of the experimental process. For this reason, our training course on Experimental Design is \textbf{compulsory} for all new PhD students. The course is also run regularly for other researchers at C.I.\\
+
+
+Statistics teaching is done using the R Commander GUI; a user-friendly way of doing statistical analysis in R (\cite{Rcmdr}). Therefore the focus of this training is on the statistical concepts, rather than wrestling with the R language. In this course we introduce the basics of statistics and hypothesis testing. The Bioinformatics Core at Cambridge Research Institute employs statisticians to help researchers at the institute with the statistical aspects of their studies. Whilst we are always happy to do an analysis for you, we are also happy to support you if you choose to run the analysis yourself. Please get in touch if you have any questions or require our support, or come along to our Wednesday afternoon Statistics Clinic - {\color{crukpink}{\tt cristatsclinic@cruk.cam.ac.uk}}. \vspace{1cm}
+
+Material from our experimental design and statistics courses are available on Sharepoint. \vspace{1cm}
+
+\usebeamercolor{title in headline}{\color{crukpink}\textbf{\large{sharepoint.cri.camres.org/sites/bioinformatics/Public/}}}
+ 
+ 
     \end{block}
     
     
