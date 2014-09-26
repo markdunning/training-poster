@@ -61,7 +61,7 @@ Modern technologies are able to generate vast amounts of data on an unprecedente
     
     
     \begin{block}{External Courses}
-    All members of The University of Cambridge are eligable for courses hosted in the Department of Genetics. A list of current courses can be obtained from {\color{crukpink}tinyurl.com/biocourses}. Several courses that involve C.I. staff as demonstrators, or might be of particular interested, are listed below
+    All members of The University of Cambridge are eligible for courses hosted in the Department of Genetics. A list of current courses can be obtained from {\color{crukpink}tinyurl.com/biocourses}. Several courses that involve C.I. staff as demonstrators, or might be of particular interested, are listed below
   \begin{itemize}
   \item{\color{crukblue}{Beginner}}
   \begin{itemize}
@@ -87,11 +87,7 @@ Modern technologies are able to generate vast amounts of data on an unprecedente
   \end{itemize}
     
     \end{block}
-    \begin{block}{References}
-      \bibliography{poster}
-			\normalsize
 
-    \end{block}
     
     \begin{block}{Course Materials}
     Materials from our internal courses will be hosted on the C.I. sharepoint: {\color{crukpink}{sharepoint.cri.camres.org/sites/bioinformatics/Public/}}
@@ -103,7 +99,12 @@ Modern technologies are able to generate vast amounts of data on an unprecedente
     
     \begin{block}{Acknowledgements}
     The current roster of course developers and presenters is as follows;
-    {\color{crukblue}{Ines de Santiago}}, {\color{crukpink}{Henry Farmery}}, {\color{crukblue}{Suraj Menon}}, {\color{crukpink}{Anne Pajon}}, {\color{crukblue}{Oscar Rueda}}, {\color{crukpink}{Roslin Russell}}, {\color{crukblue}{Shamith Samarajiwa}}, {\color{crukpink}{Mike Smith}}, {\color{crukblue}{Jing Su}}, {\color{crukpink}{Sarah Vowler}}
+    {\color{crukblue}{Ines de Santiago}}, {\color{crukpink}{Henry Farmery}},{\color{crukblue}{Sarah Leigh Brown}}, {\color{crukpink}{Suraj Menon}}, {\color{crukblue}{Anne Pajon}}, {\color{crukpink}{Oscar Rueda}}, {\color{crukblue}{Roslin Russell}}, {\color{crukpink}{Shamith Samarajiwa}}, {\color{crukblue}{Mike Smith}},{\color{crukpink}{Rory Stark}} {\color{crukblue}{Jing Su}}, {\color{crukpink}{Sarah Vowler}}
+    \end{block}
+        \begin{block}{References}
+      \bibliography{poster}
+  		\normalsize
+
     \end{block}
     \end{oneCol}
 
@@ -112,8 +113,7 @@ Modern technologies are able to generate vast amounts of data on an unprecedente
     
     \begin{block}{Aims}
     \begin{itemize}
-    \item{Ensure that researchers leave the institute with compentency in numerical and computational analysis}
-    \item{Promote best practices such as Reproducible Research and careful experimental design}
+    \item{Ensure that researchers leave the institute with competency in numerical and computational analysis. We focus on core skills in {\color{crukpink}{statistics}}, {\color{crukblue}{experimental design}}, {\color{crukpink}{R}}, {\color{crukblue}{Reproducible Research}}  and {\color{crukpink}{unix}}.}
     \item{Increase researcher independence by promoting interfaces such as IGV, Galaxy and UCSC for routine Bioinformatics analysis and data exploration}
     \item{Monitor and advertise Bioinformatics training opportunities that arise in the University}
     \end{itemize}
@@ -129,7 +129,7 @@ This quote by Fisher sums up why experimental design is a crucial part of the ex
 
 
 Statistics teaching is done using the R Commander GUI; a user-friendly way of doing statistical analysis in R (\cite{Rcmdr}). Therefore the focus of this training is on the statistical concepts, rather than wrestling with the R language. In this course we introduce the basics of statistics and hypothesis testing. 
-Material from our experimental design and statistics courses are available on Sharepoint. \vspace{1cm}
+Material from our experimental design and statistics courses are available on {\color{crukblue}{Sharepoint}}. Individual consultations with the Statistics team can be arranged by emailing; {\color{crukpink}{{\tt cristatsclinic@cruk.cam.ac.uk}}}\vspace{1cm}
 
 
  
@@ -139,27 +139,27 @@ Material from our experimental design and statistics courses are available on Sh
     \begin{oneCol}
     \begin{figure}
     \includegraphics{images/NYTimes_R_Article.png}
-    \caption{{\color{crukblue}{R is gaining press attention (\cite{i1697})}}}
+    \caption{{\color{crukblue}{R is gaining press attention {\color{crukpink}{(\cite{i1697})}}}}}
     \end{figure}
     \end{oneCol}
     %\spacer{}
     \begin{oneCol}
     \begin{figure}
     \includegraphics{images/cyclejourneys.png}
-    \caption{{\color{crukblue}{R can produce high-quality graphics (\cite{Cheshire:2012})}}}
+    \caption{{\color{crukblue}{R can produce high-quality graphics {\color{crukpink}{(\cite{Cheshire:2012})}}}}}
     \end{figure}
     \end{oneCol}
     %\spacer{}
     \begin{oneCol}
     \begin{figure}
         \includegraphics{images/osqa.png}
-      \caption{{\color{crukblue}{R forum for C.I. staff - http://bioinf-qa001/}}}
+      \caption{{\color{crukblue}{R forum for C.I. staff - {\color{crukpink}{http://bioinf-qa001/}}}}}
         \end{figure}
 
         \end{oneCol}
     \end{columns}
 The R programming language is our language of choice for data analysis. Not only is it open-source and freely-available, but it is capable of generating publication-quality images and has a large user-base amongst the scientific community. It also promotes the practice of \textbf{Reproducible Research}.
-However, it comes with a steep learning-curve especially for those without prior exposure to command-line. Although it requires an investment of time, it is ultimately rewarding and a valuable skill to acquire. We are taking the following steps to help with the transition from GraphPad Prism.\vspace{1cm}
+However, it comes with a steep learning-curve especially for those without prior exposure to command-line tools. Although it requires an investment of time, it is ultimately rewarding and a valuable skill to acquire. We are taking the following steps to help with the transition from GraphPad Prism.\vspace{1cm}
 
 \begin{itemize}
 \item{Promote availability of R classes at The Department of Genetics}
@@ -177,21 +177,21 @@ However, it comes with a steep learning-curve especially for those without prior
     \begin{oneCol}
     \begin{figure}
     \includegraphics{images/GalaxyScreenshot.png}
-    \caption{{\color{crukblue}{Galaxy {\tt https://usegalaxy.org/}}}}
+    \caption{{\color{crukblue}{Galaxy {\color{crukpink}{{\tt https://usegalaxy.org/}}}}}}
     \end{figure}
     \end{oneCol}
     %\spacer{}
     \begin{oneCol}
     \begin{figure}
     \includegraphics{images/igvfigure1.jpg}
-    \caption{{\color{crukblue}{Integrative Genomics Viewer (IGV) {\tt http://www.broadinstitute.org/igv/}}}}
+    \caption{{\color{crukblue}{Integrative Genomics Viewer (IGV) {\color{crukpink}{\tt http://www.broadinstitute.org/igv/}}}}}
     \end{figure}
     \end{oneCol}
     %\spacer{}
     \begin{oneCol}
     \begin{figure}
         \includegraphics{images/ucsc007.png}
-        \caption{{\color{crukblue}{U.C.S.C Genome Browser {\tt https://genome.ucsc.edu/}}}}
+        \caption{{\color{crukblue}{U.C.S.C Genome Browser {\color{crukpink}{\tt https://genome.ucsc.edu/}}}}}
         \end{figure}
         \end{oneCol}
                 
