@@ -26,7 +26,7 @@
 
   \begin{frame}{}
   
-            \usebeamercolor{title in headline}{\color{crukpink}\textbf{\large{http://intranet.cri.camres.org/core-facilities/bioinformatics/training-courses}}\\[3ex]}
+            \usebeamercolor{title in headline}{\color{crukpink}\textbf{\large{https://github.com/bioinformatics-core-shared-training}}\\[3ex]}
   
     \begin{columns}[t]
     \spacer{}
@@ -35,43 +35,24 @@
 Modern technologies are able to generate vast amounts of data on an unprecedented scale. Therefore numerical and computational competency are increasingly being seen as core skills for bench scientists. 
 
 \end{block}
-    \begin{block}{Internal Courses}
 
-  \begin{itemize}
-  \item{{\color{crukblue}\textit{Active}}}
-  
-  These courses are designed to help you make the most of your interactions with the Genomics and Bioinformatics Cores. They will help you to formulate your experimental design question, and give you a basic grounding in statistics.
-    \begin{itemize}
-      \item{{\color{crukpink}{An Introduction to Statistical Analysis using R Commander}}}
-      \item{{\color{crukblue}{Introduction to Experimental Design}}}
-    \end{itemize}
-  
-  \item{\color{crukblue}\textit{Under development}}
-    \begin{itemize}
-    \item{{\color{crukpink}{Visualisation and interpretation of Bioinformatcs data using Genome Browsers}}}
-    \item{{\color{crukblue}{Graphics and data manipulation in R}}}
-    \item{{\color{crukpink}{Further statistics}}}
-    \item{{\color{crukblue}{Introduction to Unix}}}
-    \item{{\color{crukpink}{ChIP-seq Data Analysis}}}
-    \item{{\color{crukblue}{RNA-Seq Data Analysis}}}
-    \end{itemize}
-  \end{itemize}
-
-    \end{block}
     
     
-    \begin{block}{External Courses}
-    All members of The University of Cambridge are eligible for courses hosted in the Department of Genetics. A list of current courses can be obtained from {\color{crukpink}tinyurl.com/biocourses}. Several courses that involve C.I. staff as demonstrators, or might be of particular interested, are listed below
+    \begin{block}{University-run Courses}
+    All members of The University of Cambridge are eligible for courses hosted in the Department of Genetics. A list of currently-scheduled courses can be obtained from {\color{crukpink}http://tiny.cc/biocourses}. Several courses that involve C.I. staff as demonstrators, or might be of particular interested, are listed below
   \begin{itemize}
   \item{\color{crukblue}{Beginner}}
   \begin{itemize}
     \item{{\color{crukpink}{An Introduction to Solving Biological Problems with Python}}}
     \item{{\color{crukblue}{An Introduction to Solving Biological Problems with PERL}}}
     \item{{\color{crukpink}{An Introduction to Solving Biological Problems with R}}}
+    \item{{\color{crukpink}{An Introduction to MATLAB for biologists}}}
     \item{{\color{crukblue}{Analysing mapped NGS data with SeqMonk}}}
     \item{{\color{crukpink}{Galaxy: Data Manipulation and Visualisation}}}
-    \item{{\color{crukblue}{Whole Exome Sequencing and RNA-sequence data analysis}}}
-    \item{{\color{crukpink}{Introductory Statistics and Experimental Design for Genomics}}}
+    \item{{\color{crukblue}{Galaxy: RNA-seq and ChIP-seq data analysis }}}
+    \item{{\color{crukpink}{Whole Exome Sequencing and RNA-sequence data analysis}}}
+    \item{{\color{crukblue}{Introduction to genome variation analysis using NGS}}}
+  \item{{\color{crukpink}{Using the Ensembl Genome Browser}}} 
   \end{itemize}
   \item{\color{crukblue}{Intermediate}}
     \begin{itemize}
@@ -89,9 +70,7 @@ Modern technologies are able to generate vast amounts of data on an unprecedente
     \end{block}
 
     
-    \begin{block}{Course Materials}
-    Materials from our internal courses will be hosted on the C.I. sharepoint: {\color{crukpink}{sharepoint.cri.camres.org/sites/bioinformatics/Public/}}
-    \end{block}
+
     
     \begin{block}{Interested in becoming a trainer?}
     We are always keen to recruit Bioinformaticians to the training roster. If you think you can contribute to one of our existing courses, or can spot a gap in our schedule, please let us know!
@@ -99,13 +78,28 @@ Modern technologies are able to generate vast amounts of data on an unprecedente
     
     \begin{block}{Acknowledgements}
     The current roster of course developers and presenters is as follows;
-    {\color{crukblue}{Ines de Santiago}}, {\color{crukpink}{Henry Farmery}},{\color{crukblue}{Sarah Leigh Brown}}, {\color{crukpink}{Suraj Menon}}, {\color{crukblue}{Anne Pajon}}, {\color{crukpink}{Oscar Rueda}}, {\color{crukblue}{Roslin Russell}}, {\color{crukpink}{Shamith Samarajiwa}}, {\color{crukblue}{Mike Smith}},{\color{crukpink}{Rory Stark}} {\color{crukblue}{Jing Su}}, {\color{crukpink}{Sarah Vowler}}
+    \begin{itemize}
+    \item{{\color{crukblue}{Simon Bell}}}
+    \item{{\color{crukpink}{Ines de Santiago}}}
+    \item{{\color{crukblue}{Henry Farmery}}}
+    \item{{\color{crukpink}{Peter MacCallum}}}
+    \item{{\color{crukblue}{Suraj Menon}}}
+    \item{{\color{crukpink}{Marc O'Brien}}}
+    \item{{\color{crukblue}{Anne Pajon}}}
+    \item{{\color{crukpink}{Oscar Rueda}}}
+    \item{{\color{crukblue}{Shamith Samarajiwa}}}
+    \item{{\color{crukpink}{Rory Stark}}}
+    \item{{\color{crukblue}{Jing Su}}}
+    \item{{\color{crukpink}{Sarah Vowler}}}
+    \end{itemize}
     \end{block}
         \begin{block}{References}
       \bibliography{poster}
   		\normalsize
 
     \end{block}
+
+    
     \end{oneCol}
 
     \spacer{}
@@ -113,28 +107,34 @@ Modern technologies are able to generate vast amounts of data on an unprecedente
     
     \begin{block}{Aims}
     \begin{itemize}
-    \item{Ensure that researchers leave the institute with competency in numerical and computational analysis. We focus on core skills in {\color{crukpink}{statistics}}, {\color{crukblue}{experimental design}}, {\color{crukpink}{R}}, {\color{crukblue}{Reproducible Research}}  and {\color{crukpink}{unix}}.}
+    \item{Ensure that researchers leave the institute with competency in numerical and computational analysis. We focus on core skills in {\color{crukpink}{statistics}}, {\color{crukblue}{experimental design}}, {\color{crukpink}{R}}, {\color{crukblue}{data visualisation}} and {\color{crukpink}{unix}}.} These are discussed briefly in more detail below.
     \item{Increase researcher independence by promoting interfaces such as IGV, Galaxy and UCSC for routine Bioinformatics analysis and data exploration}
     \item{Monitor and advertise Bioinformatics training opportunities that arise in the University}
     \end{itemize}
     \end{block}
-    \begin{block}{Experimental Design and Statistics}
-
-
-
-  
-        {\color{crukpink}{\textit{"To consult the statistician after an experiment is finished is often merely to ask him to conduct a post mortem examination. He can perhaps say what the experiment died of." - R.A. Fisher}}}
-        
-This quote by Fisher sums up why experimental design is a crucial part of the experimental process. For this reason, our training course on Experimental Design is \textbf{compulsory} for all new PhD students. The course is also run regularly for other researchers at C.I.\\
-
-
-Statistics teaching is done using the R Commander GUI; a user-friendly way of doing statistical analysis in R (\cite{Rcmdr}). Therefore the focus of this training is on the statistical concepts, rather than wrestling with the R language. In this course we introduce the basics of statistics and hypothesis testing. 
-Material from our experimental design and statistics courses are available on {\color{crukblue}{Sharepoint}}. Individual consultations with the Statistics team can be arranged by emailing; {\color{crukpink}{{\tt cristatsclinic@cruk.cam.ac.uk}}}\vspace{1cm}
-
-
- 
+    
+    \begin{block}{Bioinformatics Courses at CI - 2015 Schedule}
+    {\color{crukpink}{Seminar room 215}} in Cancer Research Uk Cambridge Institute is block-booked for training two days a month. The course in this room are run in collaboration with the Bioinformatics Training Programme at the Department of Genetics, however priority to attend the course and first notification of courses will be given to CCC members. Participants are expected to bring their own laptops and instructions are provided on how to install the relevant software.\\
+    
+    
+    \begin{itemize}
+    \item{\color{crukpink}{Monday 22nd June - Basic Unix}}
+    \item{\color{crukblue}{Tuesday 23rd June - Introduction to Statistical Analysis with R Commander}}
+    \item{\color{crukpink}{Tuesday 22nd September - Using Genome Browsers}}
+    \item{\color{crukblue}{Monday 19th October - Intermediate Statistics}}
+    \item{\color{crukpink}{Tuesday 20th October - Intermediate R}}
+    \item{\color{crukblue}{Monday 16th November -Introduction to Statistical Analysis with R Commander (for new PhD Students)}}
+    \item{\color{crukpink}{Tuesday 17th November -Experimental Design (for new PhD Students)}}
+    \item{\color{crukblue}{Monday 30th November - Scientific Figure Design (for new PhD Students)}}
+    \item{\color{crukpink}{Monday 14th/Tuesday 15th December - Analysis of Microarray data}}
+    \end{itemize}
     \end{block}
-    \begin{block}{R Training}
+    
+    \begin{block}{Unix}
+    The Unix shell has existed since the early days of computers, and yet is still the preferred way to run many popular Bioinformatics tools. The concept of typing commands to run programs is often alien to those that are used-to a GUI interface, so we aim to take the novice and turn them into a beginning Linux user. We describe the Linux environment so they can start to utilize command-line tools and feel comfortable using a text-based way of interacting with a computer. Teaching is done via a {\color{crukpink}{'virtual machine'}} so that participants can experiment without making permanent changes to their own machine.
+    \end{block}
+    
+    \begin{block}{R}
     \begin{columns}
     \begin{oneCol}
     \begin{figure}
@@ -152,22 +152,25 @@ Material from our experimental design and statistics courses are available on {\
     %\spacer{}
     \begin{oneCol}
     \begin{figure}
-        \includegraphics{images/osqa.png}
-      \caption{{\color{crukblue}{R forum for C.I. staff - {\color{crukpink}{http://bioinf-qa001/}}}}}
+        \includegraphics{images/rstudio-windows.png}
+      \caption{{\color{crukblue}{Rtsudio promotes reproducible research}}}
         \end{figure}
 
         \end{oneCol}
     \end{columns}
-The R programming language is our language of choice for data analysis. Not only is it open-source and freely-available, but it is capable of generating publication-quality images and has a large user-base amongst the scientific community. It also promotes the practice of \textbf{Reproducible Research}.
-However, it comes with a steep learning-curve especially for those without prior exposure to command-line tools. Although it requires an investment of time, it is ultimately rewarding and a valuable skill to acquire. We are taking the following steps to help with the transition from GraphPad Prism.\vspace{1cm}
+The R programming language is our language of choice for data analysis. Not only is it open-source and freely-available, but it is capable of generating publication-quality images and has a large user-base amongst the scientific community. 
+However, it comes with a steep learning-curve especially for those without prior exposure to command-line tools. Although it requires an investment of time, it is ultimately rewarding and a valuable skill to acquire. \\
 
-\begin{itemize}
-\item{Promote availability of R classes at The Department of Genetics}
-\item{Provide extra material to support the course in Genetics}
-\item{Bespoke training on R graphics with online materials}
-\item{Worked-examples of how to conduct typical GraphPad Prism analyses in R}
-\item{Support forum for C.I. staff - {\color{crukpink}\textbf{\large{\tt http://bioinf-qa001/}}}}
-\end{itemize}
+R, and especially the RStudio interface, also promotes the practice of {\color{crukpink}{Reproducible Research}}. We are actively-engaged in restructuring the University's long-standing R course so that a key component is the generation of reproducible analyses and reports.
+\end{block}
+
+\begin{block}{Experimental Design \& Statistics}
+        {\color{crukpink}{\textit{"To consult the statistician after an experiment is finished is often merely to ask him to conduct a post mortem examination. He can perhaps say what the experiment died of." - R.A. Fisher}}}\\
+        
+This popular quote by Fisher sums up why experimental design is a crucial part of the experimental process. For this reason, our training course on Experimental Design is highly-recommended for all new PhD students.\\
+
+Statistics teaching is done using the R Commander GUI; a user-friendly way of doing statistical analysis in R (\cite{Rcmdr}). Therefore the focus of this training is on the statistical concepts, rather than wrestling with the R language. In this course we introduce the basics of statistics and hypothesis testing. 
+
 
     \end{block}
     
@@ -196,7 +199,7 @@ However, it comes with a steep learning-curve especially for those without prior
         \end{oneCol}
                 
     \end{columns}
-Arguably the best way to develop an understanding of high-throughput data is to get into the habit of visualising the data. There are many tools that provide the opportunity to do this. We are currently developing introductory and advanced courses to introduce such tools. Researchers will be show how to load their own data into these tools and overlay with other genomic 'tracks' and perform simple operations. \vspace{1cm}
+Arguably the best way to develop an understanding of high-throughput data is to get into the habit of visualising the data. There are many tools that provide the opportunity to do this. We are currently developing introductory and advanced courses to introduce such tools. Researchers will be show how to load their own data into these tools and overlay with other genomic 'tracks' and perform simple operations in the popular tools. \vspace{1cm}
 
 \begin{itemize}
 \item{The Galaxy browser}
@@ -206,32 +209,26 @@ Arguably the best way to develop an understanding of high-throughput data is to 
 
 \end{block}
 
-\begin{block}{Analysis of High-throughput data}
-   \begin{columns}
-    \begin{oneCol}
+        \begin{block}{Course Materials}
+    Our courses are based-on open-source and freely-available software. Materials from our courses are developed and shared via Github: {\color{crukpink}{https://github.com/bioinformatics-core-shared-training}}. We also have collaborations and share material with the Bioinformatics Training Programme (Department of Genetics) and MRC Clinical Sciences Centre (London). 
+       \begin{columns}
+           \begin{oneCol}
     \begin{figure}
-    \includegraphics{images/volcanoplot.png}
-    \caption{{\color{crukblue}{Volcano Plot showing differentially expressed genes}}}
-    \end{figure}
-    \end{oneCol}
-    %\spacer{}
-    \begin{oneCol}
-    \begin{figure}
-    \includegraphics{images/Heatmap.png}
-    \caption{{\color{crukblue}{Heatmap representing relationships between biological samples}}}
-    \end{figure}
-    \end{oneCol}
-    %\spacer{}
-    \begin{oneCol}
-    \begin{figure}
-        \includegraphics{images/cir.png}
-        \caption{{\color{crukblue}{Visualising sequencing data in Bioconductor}}}
         \end{figure}
         \end{oneCol}
-                
+        \begin{oneCol}
+    \begin{figure}
+        \includegraphics[height=4cm,width=9.7cm]{images/GitHub_Logo.png}
+        \end{figure}
+        \end{oneCol}
+
+    \begin{oneCol}
+    \begin{figure}
+    \includegraphics[height=3.50cm,width=4.2cm]{images/Octocat.jpg}
+        \end{figure}
+        \end{oneCol}
     \end{columns}
-Along with other Bioinformaticians at C.I., the Bioinformatics Core has made a significant contribution to training on the analysis of Microarray and Next-Generation Sequencing Data. These courses are hosted at the Genetics Department and aimed at those with some experience of R and keen on doing their own analysis. Not only do we provide practical experience of analysing data, but also offer insight into the methodology. Software from the Bioconductor project is used in the courses ({\color{crukpink}{www.bioconductor.org}}). We will also offer courses tailored around the output of our RNA-seq and ChIP-seq pipelines. These will focus on how to interpret the results delivered by the Bioinformatics Core.
-\end{block}
+    \end{block}
 
     
     
