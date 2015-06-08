@@ -26,7 +26,7 @@
 
   \begin{frame}{}
   
-            \usebeamercolor{title in headline}{\color{crukpink}\textbf{\large{https://github.com/bioinformatics-core-shared-training}}\\[3ex]}
+            \usebeamercolor{title in headline}{\color{crukpink}\textbf{\large{http://bioinformatics-core-shared-training.github.io/}}\\[3ex]}
   
     \begin{columns}[t]
     \spacer{}
@@ -114,7 +114,7 @@ Modern technologies are able to generate vast amounts of data on an unprecedente
     \end{block}
     
     \begin{block}{Bioinformatics Courses at CI - 2015 Schedule}
-    {\color{crukpink}{Seminar room 215}} in Cancer Research Uk Cambridge Institute is block-booked for training two days a month. The course in this room are run in collaboration with the Bioinformatics Training Programme at the Department of Genetics, however priority to attend the course and first notification of courses will be given to CCC members. Participants are expected to bring their own laptops and instructions are provided on how to install the relevant software.\\
+    {\color{crukpink}{Seminar room 215}} in Cancer Research Uk Cambridge Institute is block-booked for training two days a month. The courses in this room are run in collaboration with the Bioinformatics Training Programme at the Department of Genetics. However, priority to attend the course and first notification of courses will be given to CCC members. Participants are expected to bring their own laptops and instructions are provided on how to install the relevant software.\\
     
     
     \begin{itemize}
@@ -169,7 +169,7 @@ R, and especially the RStudio interface, also promotes the practice of {\color{c
         
 This popular quote by Fisher sums up why experimental design is a crucial part of the experimental process. For this reason, our training course on Experimental Design is highly-recommended for all new PhD students.\\
 
-Statistics teaching is done using the R Commander GUI; a user-friendly way of doing statistical analysis in R (\cite{Rcmdr}). Therefore the focus of this training is on the statistical concepts, rather than wrestling with the R language. In this course we introduce the basics of statistics and hypothesis testing. 
+Our statistics teaching is done using the R Commander GUI; a user-friendly way of doing statistical analysis in R (\cite{Rcmdr}). Therefore the focus of this training is on the statistical concepts, rather than wrestling with the R language. In this course we introduce the basics of statistics and hypothesis testing so that participants can conduct their own simple statistical testing, and be able to interpret published results. 
 
 
     \end{block}
@@ -199,13 +199,8 @@ Statistics teaching is done using the R Commander GUI; a user-friendly way of do
         \end{oneCol}
                 
     \end{columns}
-Arguably the best way to develop an understanding of high-throughput data is to get into the habit of visualising the data. There are many tools that provide the opportunity to do this. We are currently developing introductory and advanced courses to introduce such tools. Researchers will be show how to load their own data into these tools and overlay with other genomic 'tracks' and perform simple operations in the popular tools. \vspace{1cm}
+Arguably the best way to develop an understanding of high-throughput data is to get into the habit of visualising the data. There are many tools that provide the opportunity to do this. We are currently developing introductory and advanced courses to introduce such tools. Researchers will be show how to load their own data into these tools and overlay with other genomic 'tracks' and perform simple operations in the most-popular tools. \vspace{1cm}
 
-\begin{itemize}
-\item{The Galaxy browser}
-\item{The Integrative Genomics Viewer (IGV)}
-\item{The UCSC genome browser}
-\end{itemize}
 
 \end{block}
 
