@@ -79,15 +79,15 @@ Modern technologies are able to generate vast amounts of data on an unprecedente
     \begin{block}{Acknowledgements}
     The current roster of course developers and presenters is as follows;
     \begin{itemize}
-    \item{{\color{crukblue}{Simon Bell}}}
+    \item{{\color{crukblue}{Chandu Chilamakuri}}}
     \item{{\color{crukpink}{Ines de Santiago}}}
     \item{{\color{crukblue}{Henry Farmery}}}
     \item{{\color{crukpink}{Peter MacCallum}}}
     \item{{\color{crukblue}{Suraj Menon}}}
     \item{{\color{crukpink}{Marc O'Brien}}}
     \item{{\color{crukblue}{Anne Pajon}}}
-    \item{{\color{crukpink}{Oscar Rueda}}}
-    \item{{\color{crukblue}{Shamith Samarajiwa}}}
+    \item{{\color{crukpink}{Bernard Pereira}}}
+    \item{{\color{crukblue}{Oscar Rueda}}}
     \item{{\color{crukpink}{Rory Stark}}}
     \item{{\color{crukblue}{Jing Su}}}
     \item{{\color{crukpink}{Sarah Vowler}}}
@@ -118,15 +118,11 @@ Modern technologies are able to generate vast amounts of data on an unprecedente
     
     
     \begin{itemize}
-    \item{\color{crukpink}{Monday 22nd June - Basic Unix}}
-    \item{\color{crukblue}{Tuesday 23rd June - Introduction to Statistical Analysis with R Commander}}
-    \item{\color{crukpink}{Tuesday 22nd September - Using Genome Browsers}}
-    \item{\color{crukblue}{Monday 19th October - Intermediate Statistics}}
-    \item{\color{crukpink}{Tuesday 20th October - Intermediate R}}
-    \item{\color{crukblue}{Monday 16th November -Introduction to Statistical Analysis with R Commander (for new PhD Students)}}
-    \item{\color{crukpink}{Tuesday 17th November -Experimental Design (for new PhD Students)}}
-    \item{\color{crukblue}{Monday 30th November - Scientific Figure Design (for new PhD Students)}}
-    \item{\color{crukpink}{Monday 14th/Tuesday 15th December - Analysis of Microarray data}}
+    \item{\color{crukblue}{Monday 19th October - Further Staistical Analysis using R}}
+    \item{\color{crukpink}{Monday 16th November - Experimental Design}}
+    \item{\color{crukblue}{Tuesday 17th November - Introduction to Statistical Analysis}}
+    \item{\color{crukpink}{Monday 30th November - Basic Unix}}
+    \item{\color{crukblue}{Friday 4th December - Scientific Figure Design (live webcast from Department of Genetics)}}
     \end{itemize}
     \end{block}
     
@@ -167,9 +163,9 @@ R, and especially the RStudio interface, also promotes the practice of {\color{c
 \begin{block}{Experimental Design \& Statistics}
         {\color{crukpink}{\textit{"To consult the statistician after an experiment is finished is often merely to ask him to conduct a post mortem examination. He can perhaps say what the experiment died of." - R.A. Fisher}}}\\
         
-This popular quote by Fisher sums up why experimental design is a crucial part of the experimental process. For this reason, our training course on Experimental Design is highly-recommended for all new PhD students.\\
+This popular quote by Fisher sums up why experimental design is a crucial part of the experimental process. For this reason, our training course on Experimental Design is {\color{crukpink}{highly-recommended for all new PhD students}}.\\
 
-Our statistics teaching is done using the R Commander GUI; a user-friendly way of doing statistical analysis in R (\cite{Rcmdr}). Therefore the focus of this training is on the statistical concepts, rather than wrestling with the R language. In this course we introduce the basics of statistics and hypothesis testing so that participants can conduct their own simple statistical testing, and be able to interpret published results. 
+For statistics training, we have developed a series of online tools using {\color{crukpink}{Shiny (http://shiny.rstudio.com/)}}; a framework for developing web applications using R. Therefore the focus of this training is on the statistical concepts, rather than wrestling with the R language. In this course we introduce the basics of statistics and hypothesis testing so that participants can conduct their own simple statistical testing, and be able to interpret published results. 
 
 
     \end{block}
