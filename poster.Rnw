@@ -27,7 +27,6 @@
   \begin{frame}{}
   
             \usebeamercolor{title in headline}{\color{crukpink}\textbf{\large{http://bioinformatics-core-shared-training.github.io/}}\\[3ex]}
-  
     \begin{columns}[t]
     \spacer{}
     \begin{oneCol}
@@ -208,14 +207,12 @@ Arguably the best way to develop an understanding of high-throughput data is to 
         \end{figure}
         \end{oneCol}
         \begin{oneCol}
-    \begin{figure}
-        \includegraphics[height=4cm,width=9.7cm]{images/GitHub_Logo.png}
-        \end{figure}
         \end{oneCol}
 
     \begin{oneCol}
     \begin{figure}
-    \includegraphics[height=3.50cm,width=4.2cm]{images/Octocat.jpg}
+      \includegraphics[height=7cm,width=7cm]{images/qrcode.png}
+
         \end{figure}
         \end{oneCol}
     \end{columns}
