@@ -12,7 +12,7 @@
     \usepackage[sort&compress,square,comma,authoryear]{natbib}
 \bibliographystyle{plainnat}
   \title[BioTraining]{Bioinformatics Training Opportunities}
-  \author[Dunning]{Mark Dunning, Bioinformatics Training Coordinator}
+  \author[Dunning]{Mark Dunning, Bioinformatics Training Coordinator, @DrMarkDunning}
   \institute[C.I]{Bioinformatics Core, Cancer Research UK, Cambridge Institute}
   \date{\today}
   \newcommand{\spaceProp}{0.02}
@@ -26,7 +26,7 @@
 
   \begin{frame}{}
   
-            \usebeamercolor{title in headline}{\color{crukpink}\textbf{\large{http://bioinformatics-core-shared-training.github.io/}}\\[3ex]}
+            \usebeamercolor{title in headline}{\color{crukpink}\textbf{\large{http://www.cruk.cam.ac.uk/core-facilities/bioinformatics-core/training}}\\[3ex]}
     \begin{columns}[t]
     \spacer{}
     \begin{oneCol}
